@@ -101,7 +101,7 @@ def update():
     for i in range(0, model.height):
         for j in range(0, model.width):
             if model.grid_model[i][j] == 1:
-                draw_cell(i, j, 'red')    #onemli yeri
+                draw_cell(i, j, 'red')   
     if (is_running):
         root.after(10, update)
 
